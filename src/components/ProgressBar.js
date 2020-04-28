@@ -1,15 +1,18 @@
-import React, { useState } from 'react'
-import { useSelector } from 'react-redux'
-import styled from 'styled-components'
-import { quiz } from 'reducers/quiz'
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+import styled from "styled-components";
 
 export const ProgressBar = ({ question }) => {
-  const totalQuestions = useSelector(state => state.quiz.questions)
-  const currentQuestion = question.id
+  const totalQuestions = useSelector((state) => state.quiz.questions);
+  const currentQuestion = question.id;
 
   return (
+    <Progress>
+      {currentQuestion} / {totalQuestions.length}
+    </Progress>
+  );
+};
 
-    <h2>{currentQuestion}/ {totalQuestions.length}</h2>
-
-  )
-}
+const Progress = styled.h2`
+  color: #f44aa2;
+`;
