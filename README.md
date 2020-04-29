@@ -10,9 +10,9 @@ My team's task was to build a quiz game using Redux. It's a multiple choice quiz
 - Redux
 - React
 - Javascript
+- Styled components
 - CSS
   
 ## See it live
-https://quiz-hippos.netlify.app/
-
+https://food-quiz-project.netlify.app/
 
