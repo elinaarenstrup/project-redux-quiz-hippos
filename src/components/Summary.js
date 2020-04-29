@@ -17,7 +17,7 @@ export const Summary = () => {
   return (
     <EndgameWrapper>
       <Endgame>
-        YAY! You got {correctAnswers.length} /of {totalQuestions.length} points!
+        YAY! You got {correctAnswers.length} /{totalQuestions.length} points!
       </Endgame>
       <Lottie
         options={{
@@ -30,7 +30,7 @@ export const Summary = () => {
 };
 
 const Endgame = styled.h1`
-  color: #f44aa2;
+  color: #0b0014;
   font-size: 36px;
   text-align: center;
 `;

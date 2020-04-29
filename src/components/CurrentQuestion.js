@@ -40,7 +40,7 @@ export const CurrentQuestion = () => {
 
   return (
     <QuestionContainer>
-      <Question>Question: {question.questionText}</Question>
+      <Question> {question.questionText}</Question>
       {question.options.map((option, index) => (
         <Option key={index}>
           <OptionInput
@@ -69,7 +69,7 @@ export const CurrentQuestion = () => {
 };
 
 const Question = styled.h1`
-  color: #f44aa2;
+  color: #0b0014;
   font-size: 36px;
   text-align: center;
 `;
@@ -88,7 +88,7 @@ const OptionInput = styled.input`
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
-  color: #000;
+  color: #0b0014;
   text-align: center;
   transition: all 0.2s;
 `;

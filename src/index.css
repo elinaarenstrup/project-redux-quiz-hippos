@@ -5,8 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0febff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23c7f9ff' stroke-width='0' %3E%3Crect fill='%23c7f9ff' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #000;
+  background-image: url("food.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
@@ -15,8 +20,8 @@ code {
 }
 
 .correctAnswer {
-  background: #dc99f0;
+  background: #9fbb7f;
 }
 .wrongAnswer {
-  background: #ff5151;
+  background: #d44d5c;
 }

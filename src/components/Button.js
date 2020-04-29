@@ -22,7 +22,7 @@ const QuizButton = styled.button`
   font-weight: 700;
   font-size: 24px;
   color: #fff;
-  background-color: #4ae5b3;
+  background-color: #0b0014;
   text-align: center;
   transition: all 0.2s;
 `;

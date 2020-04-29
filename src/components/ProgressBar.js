@@ -14,5 +14,5 @@ export const ProgressBar = ({ question }) => {
 };
 
 const Progress = styled.h2`
-  color: #f44aa2;
+  color: #0b0014;
 `;
