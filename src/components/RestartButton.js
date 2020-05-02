@@ -29,4 +29,5 @@ const Button = styled.button`
   background-color: #0b0014;
   text-align: center;
   transition: all 0.2s;
+  cursor: pointer;
 `;

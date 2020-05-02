@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
 import { RestartButton } from "./RestartButton.js";
 import Lottie from "lottie-react-web";
-import animation from "./favheart.json";
+import animation from "./heartsplash.json";
 
 export const Summary = () => {
   const totalQuestions = useSelector((state) => state.quiz.questions);

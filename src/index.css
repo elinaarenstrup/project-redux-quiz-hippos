@@ -5,8 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: #000;
-  background-image: url("food.jpg");
+  background-image: url("bg.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,8 +23,8 @@ code {
 }
 
 .correctAnswer {
-  background: #9fbb7f;
+  background: #aae4e5;
 }
 .wrongAnswer {
-  background: #d44d5c;
+  background: #fb3862;
 }
